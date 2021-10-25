@@ -1,1 +1,2 @@
-i create a new branch
+i create a new branch 
+from master branch
