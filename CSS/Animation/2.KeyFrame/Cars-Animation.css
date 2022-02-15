@@ -1,0 +1,165 @@
+*{
+}
+body{
+    margin: 0;
+    /* background: url(sdf.jpg); */
+    background-size: contain;
+}
+
+
+
+
+
+
+.road{
+    width: 100%;
+    height: 15%;
+}
+.upper{
+    margin-top: 267px;
+}
+.lower{
+    margin-top: 97px;
+}
+.crossing-road{
+    transform: rotate(90deg);
+            height: 141px;
+            height: 17%;
+            position: absolute;
+            /* top: -12px; */
+            right: 167px;
+            bottom: 277px;
+            /* margin-right: 431px; */
+            /* width: 648px; */
+            width: 52%;
+            z-index: -1;
+}
+.upper-car{
+    width: 200px;
+    height: 150px;
+    position: absolute;
+}
+
+#T1, #T2{
+    animation: Tyre-rotate 2s ease-in 0s;
+    /* animation: Tyre-rotate 2s ease in 0s; */
+    position: absolute;
+    width: 34px;
+}
+
+#T1{
+    left: 135px;
+    top: 63px;
+}
+#T2{
+    left: 33px;
+    top: 63px;
+}
+#Corolla{
+    animation: Toyota-Corolla 3s ease-in infinite;
+    position: absolute;
+    top: 260px;
+}
+.lower-car{
+    width: 204px;
+    height: 76px;
+    position: absolute;
+}
+#T3, #T4{
+    animation: Wheel-rotate 3s ease-in infinite;
+    position: absolute;
+    width: 44px;
+}
+#T3{
+    /* right: -58px; */
+    /* bottom: -87px; */
+    top: 46px;
+    left: 14px;
+}
+#T4{
+    left: 137px;
+    top: 46;
+}
+#Honda{
+    animation: Honda-City 3s ease-in-out infinite;
+    /* float: right;
+    margin-right: 206px; */
+    position: absolute;
+    right: 206px;
+    bottom: 186px;
+}
+#lambo{
+    animation: lamborgini 3s ease-in-out infinite;
+    position: absolute;
+    transform: rotate( 90deg);
+    width: 154px;
+    height: 82px;
+    top: 43px;
+    /* left: 286px; */
+    right: 428px;
+}
+
+
+
+@keyframes Tyre-rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes Wheel-rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes Honda-City{
+    from{
+        margin-right: 0px;
+    }
+    to{
+        margin-right: 80%;
+    }
+}
+
+@keyframes Toyota-Corolla{
+    0%{
+        left: 0%;
+    }
+    30%{
+        left: 41%;
+    }
+    
+    60%{
+        left: 41%;
+    }
+    100%{
+        left: 80%;
+    }
+
+}
+
+
+/* @keyframes Toyota-Corolla{
+    from{
+        margin-left: 0px;
+    }
+    to{
+        margin-left: 80%;
+    }
+} */
+@keyframes lamborgini{
+    from{
+        margin-top: 0px;
+    }
+    to{
+        margin-top: 38%;
+    }
+}
+
