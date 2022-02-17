@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 pushpa
+=======
+doctor strange 
+>>>>>>> origin/master
